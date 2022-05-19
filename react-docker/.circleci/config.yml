@@ -32,7 +32,7 @@ jobs:
 workflows:
   my-pipeline:
     jobs:
-      - build-and-push
+      - build-and-push:
            filters: 
              branches: 
                only: 
